@@ -1,13 +1,81 @@
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
+  color: #333;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #eee;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+#header {
+  background-color: #fff;
+  padding: 15px;
+  box-shadow: 0 0 16px 0 rgba(0, 0, 0, .1);
+}
+
+#header .header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+}
+
+#header .navbar-brand {
+  margin-bottom: 15px;
+}
+
+#header .filters-form {
+  display: flex;
+  align-content: center;
+  justify-content: flex-start;
+} 
+#header .form-control {
+  margin-right: 15px;
+  min-width: 180px;
+}
+#header .form-search {
+  min-width: 300px;
+}
+
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  padding: 25px 15px;
+  box-shadow: 0 0 16px 0 rgba(0, 0, 0, .1);
+}
+
+.card .flag-icon {
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, .16);
+  margin: auto;
+  display: block;
+}
+
+.card .title {
+  font-size: 20px;
+  margin-bottom: 15px;
+  margin-left: 5px;
+}
+
+.card .details {
+  padding-left: 15px;
+}
+
+.card .details .details-list li {
+  padding: 5px 10px;
+}
+
+.card .details .details-list li:nth-child(even) {
+  background-color: #eee;
 }
