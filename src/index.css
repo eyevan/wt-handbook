@@ -36,7 +36,23 @@ code {
   display: flex;
   align-content: center;
   justify-content: flex-start;
-} 
+}
+
+@media (max-width: 768px) {
+  header .filters-form {
+    flex-flow: column;
+  }
+  #header .form-control {
+    margin-right: 0;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .card .title {
+    margin-top: 15px;
+  }
+}
+
 #header .form-control {
   margin-right: 15px;
   min-width: 180px;

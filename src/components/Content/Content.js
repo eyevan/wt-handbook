@@ -30,7 +30,7 @@ const COUNTRY_QUERY = gql`
 class Content extends Component {
    render() {
         return(
-            <main className="mt-5">
+            <main className="mt-3 mt-sm-5">
                 <div className="container">
                     <Query query={COUNTRY_QUERY} variables={{code: this.props.currentCountry}}>
                         { ({loading, data, error}) => {
