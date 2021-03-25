@@ -1,3 +1,3 @@
 # World Traveler's Handbook
 
-A small React app.
+A small excercise with React and GraphQL
